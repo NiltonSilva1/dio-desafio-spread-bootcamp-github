@@ -1,0 +1,72 @@
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+body {
+	width: 50%;
+	margin: 2rem auto;
+	background-image: url("./img/bg.png");
+	background-repeat: no-repeat;
+	background-size: cover;
+}
+
+div {
+	display: grid;
+	grid-template-columns: 1fr;
+	background-color: #eee;
+	padding: 0.7rem;
+}
+
+input,
+button {
+	width: 98%;
+	padding: 0.6rem 0.4rem;
+	margin: 0.4rem;
+}
+
+button {
+	text-decoration: none;
+	border: none;
+	display: block;
+	cursor: pointer;
+	text-align: center;
+}
+
+.success {
+	background-color: rgb(54, 80, 231);
+	color: rgb(255, 255, 255);
+}
+
+.delete {
+	background-color: rgb(231, 54, 54);
+	color: rgb(255, 255, 255);
+}
+
+table {
+	background-color: #e2e4e4;
+	margin-top: 0.9rem;
+	border-collapse: collapse;
+	width: 100%;
+	opacity: 0.2;
+}
+
+table:hover {
+	opacity: 1;
+	transition: 0.2;
+}
+
+th,
+td {
+	padding: 5px 25px;
+	text-align: left;
+	border-bottom: 1px solid #ddd;
+}
+
+#cadastrar {
+	border-radius: 30px;
+	background-color: #8f8f8f;
+	color: #fff;
+	font-size: 24px;
+}
